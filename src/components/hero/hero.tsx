@@ -1,19 +1,13 @@
-import { useRef, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
 import { inputIcon } from "../../assets/images";
 
 const Hero = () => {
-  const [isPlaceholder, setIsPlaceholder] = useState<boolean>(true);
+  const [isValue, setIsValue] = useState("");
 
-  const inputRef = useRef<HTMLInputElement | null>(null);
-
-  const handleInputChange = () => {
-    if (inputRef.current) {
-      if (inputRef.current.value.length === 0) {
-        setIsPlaceholder(true);
-      }
-    }
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setIsValue(e.target.value);
   };
 
   return (
@@ -28,22 +22,27 @@ const Hero = () => {
         </p>
 
         <div className="input__container">
-          {isPlaceholder && (
+          {!isValue && (
             <p className="absolute left-4">
               <span className="font-semibold">Looking for</span> design |
             </p>
           )}
           <input
             type="text"
-            // placeholder="Looking for design |"
             className="border-[1px] h-full pl-4 pr-[5.5rem] rounded-lg w-full"
-            ref={inputRef}
-            onKeyDown={() => setIsPlaceholder(false)}
+            value={isValue}
             onChange={handleInputChange}
           />
           <div className="bg-[#FFBE2E] h-[74px] w-[74px] flex items-center justify-center rounded-lg cursor-pointer absolute right-0">
             <img src={inputIcon} alt="icon" className="w-[25px] h-[15px]" />
           </div>
+        </div>
+      </div>
+
+      <div className="max-w-[920px] mx-auto">
+        <div className="mx-auto w-fit">
+          <button>IT & Development</button>
+          <button>Design and Creative</button>
         </div>
       </div>
     </HeroWrapper>
