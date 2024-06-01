@@ -6,7 +6,7 @@ export default {
     extend: {
       screens: {
         iPad: "951px",
-        iPadAir: "820px",
+        iPadAir: "841px",
         surfaceDuo: "540px",
         iPhone: "435px",
         smallPhone: "330px",

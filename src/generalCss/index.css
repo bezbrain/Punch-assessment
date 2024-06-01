@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./font.css");
+
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Switzer", sans-serif; */
 }

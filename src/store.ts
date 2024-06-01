@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 
+import navReducer from "./management/features/navSlice";
+
 export const store = configureStore({
   reducer: {
-    //
+    navStore: navReducer,
   },
 
   middleware: (getDefaultMiddleware) =>
