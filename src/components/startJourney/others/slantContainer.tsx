@@ -25,8 +25,8 @@ const SlantContainer = ({
   return (
     <SlantWrapper className={`slant__container ${bgColor}`}>
       <div className="content__container flex justify-between">
-        <div className="pt-24 pb-8 flex items-start gap-6">
-          <img src={figure} alt="one" className="h-[83px]" />
+        <div className="pt-20 flex items-start gap-6">
+          <img src={figure} alt="one" className="h-[83px] w-[60px]" />
 
           <div className="-mt-2">
             <h3

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { OneCards, SlantContainer } from "../startJourney";
+import { OneCards, SlantContainer, TwoCards } from "../startJourney";
 import { oneImage, threeImage, twoImage } from "../../assets/images";
 
 const StartJourney = () => {
@@ -23,7 +23,7 @@ const StartJourney = () => {
         figure={twoImage}
         title="Evaluate to your heart’s content."
         body="Assess the candidate through work history, transparent tests and video interviews."
-        cards
+        cards={<TwoCards />}
         btnValue="Browse More"
         bgColor="bg-[#fff7e0]"
         titleStyle="max-w-[350px]"
