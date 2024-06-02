@@ -1,9 +1,15 @@
 import {
+  cinemaIcon,
   dataIcon,
   dotNetIcon,
+  figmaIcon,
+  graphicsIcon,
+  illustratorIcon,
+  leftLogoIcon,
   logoIcon,
   magnetoIcon,
   shopifyIcon,
+  unrealIcon,
   webflowIcon,
 } from "../assets/icons";
 
@@ -77,31 +83,31 @@ export const card2 = [
   {
     id: 1,
     name: "",
-    icon: shopifyIcon,
+    icon: leftLogoIcon,
   },
   {
     id: 2,
     name: "UX Designer",
-    icon: magnetoIcon,
+    icon: figmaIcon,
   },
   {
     id: 3,
     name: "Graphics Designer",
-    icon: dataIcon,
+    icon: graphicsIcon,
   },
   {
     id: 4,
     name: "Illustration Artist",
-    icon: webflowIcon,
+    icon: illustratorIcon,
   },
   {
     id: 5,
     name: "Unreal Engine",
-    icon: dotNetIcon,
+    icon: unrealIcon,
   },
   {
     id: 6,
     name: "Cinema 4D",
-    icon: logoIcon,
+    icon: cinemaIcon,
   },
 ];
