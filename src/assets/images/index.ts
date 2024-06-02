@@ -8,6 +8,8 @@ import rubyDevImage from "./ruby-dev.png";
 import systemOpsImage from "./system-ops.png";
 import thirdFirstImage from "./third-first-img.png";
 import fourthFirstImage from "./fourth-first-img.png";
+import twoImage from "./two.png";
+import threeImage from "./three.png";
 
 export {
   inputIcon,
@@ -20,4 +22,6 @@ export {
   systemOpsImage,
   thirdFirstImage,
   fourthFirstImage,
+  twoImage,
+  threeImage,
 };

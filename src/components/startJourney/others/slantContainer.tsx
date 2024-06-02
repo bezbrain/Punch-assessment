@@ -8,6 +8,9 @@ interface SlantContainerProps {
   title: string;
   body: string;
   cards: ReactNode;
+  btnValue: string;
+  bgColor: string;
+  titleStyle: string;
 }
 
 const SlantContainer = ({
@@ -15,15 +18,20 @@ const SlantContainer = ({
   title,
   body,
   cards,
+  btnValue,
+  bgColor,
+  titleStyle,
 }: SlantContainerProps) => {
   return (
-    <SlantWrapper className="slant__container">
+    <SlantWrapper className={`slant__container ${bgColor}`}>
       <div className="content__container flex justify-between">
         <div className="pt-24 pb-8 flex items-start gap-6">
           <img src={figure} alt="one" className="h-[83px]" />
 
           <div className="-mt-2">
-            <h3 className="max-w-[445px] text-[34px] font-semibold text-[#202229] leading-[44px]">
+            <h3
+              className={`text-[34px] font-semibold text-[#202229] leading-[44px] ${titleStyle}`}
+            >
               {title}
             </h3>
             <p className="text-[#202229CC] max-w-[405px] my-6">{body}</p>
@@ -32,7 +40,7 @@ const SlantContainer = ({
               <div className="bg-[#202229] w-[50px] h-[50px] rounded-[20px] flex justify-center items-center">
                 <img src={oneStopIcon} alt="icon" />
               </div>
-              <button>Join Now</button>
+              <button>{btnValue}</button>
             </div>
           </div>
         </div>
@@ -46,9 +54,9 @@ const SlantContainer = ({
 export default SlantContainer;
 
 const SlantWrapper = styled.div`
-  background-color: #edefff;
   transform: skewY(-4deg);
   padding-inline: 1rem 2rem;
+  margin-top: 1.5rem;
   overflow: hidden;
 
   .content__container {
