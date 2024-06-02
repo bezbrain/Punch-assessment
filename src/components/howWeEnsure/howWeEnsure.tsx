@@ -15,6 +15,7 @@ const HowWeEnsure = () => {
 
       <div className="content__container">
         <ShortCard step="Step 1:" stepValue="Resume Screening" />
+        <ShortCard step="Step 2:" stepValue="Video Interview" />
         <ShortCard step="Step 3:" stepValue="Technical Evaluation" />
         <ShortCard step="Step 4:" stepValue="Application Review" />
         <ShortCard step="Step 5:" stepValue="Lets get to work" />

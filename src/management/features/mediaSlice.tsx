@@ -1,23 +1,26 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 interface MediaState {
-  isCardOpen: boolean;
+  isCardOpen: null | string;
 }
 
 const initialState: MediaState = {
-  isCardOpen: false,
+  isCardOpen: null,
 };
 
 const mediaSlice = createSlice({
   name: "media",
   initialState,
   reducers: {
-    openACard: (state) => {
-      //
+    openACard: (state, { payload }) => {
+      state.isCardOpen = payload;
+    },
+    closeACard: (state) => {
+      state.isCardOpen = null;
     },
   },
 });
 
 export default mediaSlice.reducer;
 
-export const { openACard } = mediaSlice.actions;
+export const { openACard, closeACard } = mediaSlice.actions;
