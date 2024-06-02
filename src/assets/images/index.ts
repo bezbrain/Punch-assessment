@@ -22,6 +22,8 @@ import shortYellowLine from "./shortYellowLine.png";
 import longerYellowLine from "./longerYellowLine.png";
 import maleHalfImg from "./maleHalfImg.png";
 import thirdOne from "./third1.png";
+import leelarImage from "./leelar.png";
+import tenTimesImage from "./10x.png";
 
 export {
   inputIcon,
@@ -48,4 +50,6 @@ export {
   longerYellowLine,
   maleHalfImg,
   thirdOne,
+  leelarImage,
+  tenTimesImage,
 };

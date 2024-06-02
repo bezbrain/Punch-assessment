@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-import { OneCards, SlantContainer, TwoCards } from "../startJourney";
+import {
+  OneCards,
+  SlantContainer,
+  ThirdCards,
+  TwoCards,
+} from "../startJourney";
 import { oneImage, threeImage, twoImage } from "../../assets/images";
 
 const StartJourney = () => {
@@ -32,7 +37,7 @@ const StartJourney = () => {
         figure={threeImage}
         title="Start building your team."
         body="Onboard your candidate right away and start creating the next big thing."
-        cards
+        cards={<ThirdCards />}
         btnValue="Join Now"
         bgColor="bg-[#f2f2f2]"
         titleStyle="max-w-[275px]"
