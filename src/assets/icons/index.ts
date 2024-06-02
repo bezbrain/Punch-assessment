@@ -14,6 +14,7 @@ import graphicsIcon from "./graphics.png";
 import illustratorIcon from "./illustrator.png";
 import unrealIcon from "./unreal-icon.png";
 import oneStopIcon from "./one-stop-base-icon.png";
+import playMedia from "./play-media.png";
 
 export {
   skillIcon,
@@ -32,4 +33,5 @@ export {
   illustratorIcon,
   unrealIcon,
   oneStopIcon,
+  playMedia,
 };
