@@ -15,11 +15,10 @@ const HeroLines = () => {
 export default HeroLines;
 
 const HeroLinesWrapper = styled.div`
-  margin-top: 5.5rem;
+  margin-top: 6.5rem;
 
   > div {
-    /* background-color: #5a60a3; */
-    transform: rotate(358deg);
+    transform: rotate(356deg);
     background: radial-gradient(circle at center, #5a60a3, #e6e1f2 100%);
   }
 `;

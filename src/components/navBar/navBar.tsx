@@ -24,7 +24,7 @@ const NavBar = () => {
   };
 
   return (
-    <NavBarWrapper className="pt-4 iPadAir:pt-8">
+    <NavBarWrapper className="pt-4 z-10 iPadAir:pt-8">
       {!isOpen && (
         <TiThMenuOutline
           className="fixed right-4 top-[25px] text-3xl text-white cursor-pointer iPadAir:hidden"
