@@ -1,3 +1,4 @@
 import Hero from "./hero";
+import HeroBaseCard from "./heroBaseCard";
 
-export { Hero };
+export { Hero, HeroBaseCard };

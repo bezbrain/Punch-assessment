@@ -2,6 +2,7 @@ import { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
 import { inputIcon } from "../../assets/images";
+import { HeroBaseCard } from "./";
 
 const Hero = () => {
   const [isValue, setIsValue] = useState("");
@@ -39,12 +40,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="max-w-[920px] mx-auto">
-        <div className="mx-auto w-fit">
-          <button>IT & Development</button>
-          <button>Design and Creative</button>
-        </div>
-      </div>
+      <HeroBaseCard />
     </HeroWrapper>
   );
 };
