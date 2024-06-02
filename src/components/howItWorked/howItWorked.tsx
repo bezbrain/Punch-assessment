@@ -11,7 +11,7 @@ const HowItWorked = () => {
     <HowItWorkedWrapper>
       <div className="content__container max-w-[1300px] mx-auto">
         <div className="how__it__worked text-white w-[40%]">
-          <h1 className="text-[50px] leading-[64px] flex flex-wrap items-center max-w-[400px]">
+          <h2 className="text-[50px] leading-[64px] flex flex-wrap items-center max-w-[400px]">
             <span>How it worked</span> <span>for Jason</span>
             <img
               src={itWorkedImage}
@@ -20,7 +20,7 @@ const HowItWorked = () => {
             />
             <span>at</span>{" "}
             <img src={grooveImage} alt="groove" className="mt-3 h-[45px]" />
-          </h1>
+          </h2>
 
           <p className="my-12 text-[22px] max-w-[460px]">
             Zwilt enabled us to deliver on time and they’ve been heavy hitters
@@ -78,7 +78,7 @@ const HowItWorkedWrapper = styled.div`
     justify-content: space-between;
   }
 
-  .how__it__worked > h1 {
+  .how__it__worked > h2 {
     font-family: "Switzer-Semi-Bold";
   }
   .how__it__worked p {
