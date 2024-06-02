@@ -1,7 +1,7 @@
 import { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
-import { inputIcon } from "../../assets/images";
+import { heroImage, inputIcon } from "../../assets/images";
 import { HeroBaseCard, HeroLines } from "../hero";
 
 const Hero = () => {
@@ -14,8 +14,10 @@ const Hero = () => {
   return (
     <HeroWrapper>
       <div className="top__hero max-w-[670px] mx-auto px-4 text-center">
-        <h1 className="text-[54px] leading-[64px]">
-          Finding the right fit has never been easier.
+        <h1 className="text-[54px] leading-[64px] flex flex-wrap items-center justify-center">
+          <span>Finding the right fit</span>{" "}
+          <img src={heroImage} alt="hero-image" className="px-2" /> has{" "}
+          <span>never been easier.</span>
         </h1>
         <p className="text-[22px]">
           With our rigorous pre-vetting process, you'll never have to worry
