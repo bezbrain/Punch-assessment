@@ -26,7 +26,7 @@ const YourOneStop = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center mt-4">
+        <div className="flex justify-between items-center mt-4 max-w-[1300px] mx-auto">
           <div className="w-[30%] flex items-center gap-3">
             <div className="bg-[#202229] rounded-[30px] w-[74px] h-[74px] flex justify-center items-center">
               <img

@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="top__hero max-w-[670px] mx-auto px-4 text-center">
         <h1 className="text-[54px] leading-[64px] flex flex-wrap items-center justify-center">
           <span>Finding the right fit</span>{" "}
-          <img src={heroImage} alt="hero-image" className="px-2" /> has{" "}
+          <img src={heroImage} alt="hero-image" className="mx-2" /> has{" "}
           <span>never been easier.</span>
         </h1>
         <p className="text-[22px]">
