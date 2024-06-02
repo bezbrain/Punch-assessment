@@ -2,7 +2,7 @@ import { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
 import { inputIcon } from "../../assets/images";
-import { HeroBaseCard } from "./";
+import { HeroBaseCard, HeroLines } from "../hero";
 
 const Hero = () => {
   const [isValue, setIsValue] = useState("");
@@ -41,6 +41,7 @@ const Hero = () => {
       </div>
 
       <HeroBaseCard />
+      <HeroLines />
     </HeroWrapper>
   );
 };

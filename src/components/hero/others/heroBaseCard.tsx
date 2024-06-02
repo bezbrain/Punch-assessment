@@ -1,11 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 
-import { AppDispatch, RootState } from "../../store";
+import { AppDispatch, RootState } from "../../../store";
 import {
   focusDesignAndCreative,
   focusITDev,
-} from "../../management/features/heroSlice";
+} from "../../../management/features/heroSlice";
 
 const HeroBaseCard = () => {
   const { isTIDevelopment } = useSelector(
