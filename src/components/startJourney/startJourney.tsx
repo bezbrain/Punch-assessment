@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-import { SlantContainer } from "../startJourney";
+import { OneCards, SlantContainer } from "../startJourney";
+import { oneImage } from "../../assets/images";
 
 const StartJourney = () => {
   return (
@@ -9,7 +10,12 @@ const StartJourney = () => {
         Start your journey today.
       </h2>
 
-      <SlantContainer />
+      <SlantContainer
+        figure={oneImage}
+        title="Find your next star performer."
+        body="Explore the vast Zwilt marketplace to find the candidate that meets your needs."
+        cards={<OneCards />}
+      />
     </StartJourneyWrapper>
   );
 };
