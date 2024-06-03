@@ -76,7 +76,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-[rgba(255,255,255,0.4)] p-4  justify-between max-w-[1440px] mx-auto mt-8 border-t-[1px] space-y-4 surfaceDuo:space-y-0 surfaceDuo:flex">
+      <hr className="mt-8" />
+
+      <div className="text-[rgba(255,255,255,0.4)] p-4  justify-between max-w-[1440px] mx-auto space-y-4 surfaceDuo:space-y-0 surfaceDuo:flex">
         <p className="text-[rgba(255,255,255,0.6)]">
           All rights reserved by Zwilt
         </p>
