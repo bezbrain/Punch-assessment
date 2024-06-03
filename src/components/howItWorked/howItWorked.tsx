@@ -9,7 +9,7 @@ import { leftLogoIcon, logoIcon } from "../../assets/icons";
 const HowItWorked = () => {
   return (
     <HowItWorkedWrapper>
-      <div className="content__container max-w-[1300px] mx-auto">
+      <div className="content__container max-w-[1440px] mx-auto">
         <div className="how__it__worked text-white w-[40%]">
           <h2 className="text-[50px] leading-[64px] flex flex-wrap items-center max-w-[400px]">
             <span>How it worked</span> <span>for Jason</span>

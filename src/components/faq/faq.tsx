@@ -11,7 +11,7 @@ const Faq = () => {
 
         <div>
           <FaqCard
-            borderStyle="border-r-2"
+            borderStyle="border-r-[1px]"
             isGeneral={true}
             faqContent="I want to work part-time, is that possible"
           />

@@ -18,7 +18,9 @@ const FaqCard = ({
   faqContent,
 }: FaqCardProps) => {
   return (
-    <div className={`flex justify-between items-center border-y-2 ${bgColor}`}>
+    <div
+      className={`flex justify-between items-center border-y-[1px] ${bgColor}`}
+    >
       <div
         className={`flex justify-center items-center w-[230px] h-[110px] ${borderStyle}`}
       >

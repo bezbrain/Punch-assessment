@@ -81,7 +81,7 @@ const StartJourney = () => {
 export default StartJourney;
 
 const StartJourneyWrapper = styled.div`
-  max-width: 1300px;
+  max-width: 1440px;
   margin-inline: auto;
 
   > h2 {

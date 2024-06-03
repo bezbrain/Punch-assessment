@@ -12,7 +12,7 @@ const YourOneStop = () => {
           Your one-stop marketplace for finding the talent your business needs.
         </h2>
 
-        <div className="max-w-[1300px] mx-auto flex justify-between">
+        <div className="max-w-[1440px] mx-auto flex justify-between">
           {/* Left hand side */}
           <div className="w-[30%] flex flex-col justify-between py-8">
             <LeftCategories title="Find Dev and IT professionals to scale your business." />
@@ -26,7 +26,7 @@ const YourOneStop = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center mt-4 max-w-[1300px] mx-auto">
+        <div className="flex justify-between items-center mt-4 max-w-[1440px] mx-auto">
           <div className="w-[30%] flex items-center gap-3">
             <div className="bg-[#202229] rounded-[30px] w-[74px] h-[74px] flex justify-center items-center">
               <img

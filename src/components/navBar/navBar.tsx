@@ -2,11 +2,11 @@ import styled from "styled-components";
 import { TiThMenuOutline } from "react-icons/ti";
 import { IoClose } from "react-icons/io5";
 
-import { zwiltLogo } from "../../assets/logo";
 import { navData1, navData2 } from "../../utils/data";
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../store";
 import { closeNav, openNav } from "../../management/features/navSlice";
+import Logo from "../general/logo";
 
 const NavBar = () => {
   const { isOpen } = useSelector((store: RootState) => store.navStore);
@@ -43,7 +43,7 @@ const NavBar = () => {
           isOpen ? "show__nav__items" : "hide__nav__items"
         }`}
       >
-        <img src={zwiltLogo} alt="Zwilt" className="iPadAir:pl-4" />
+        <Logo logoStyle="iPadAir:pl-4" />
 
         <nav className="text-[#ffffff] space-y-2 mt-3 iPadAir:flex iPadAir:items-center iPadAir:mt-0 iPadAir:gap-8 iPadAir:space-y-0">
           {navData1.map((each) => {
@@ -96,7 +96,7 @@ const NavBarWrapper = styled.header`
 
   .nav__container {
     /* border: 2px solid green; */
-    max-width: 1300px;
+    max-width: 1440px;
     padding: 14px 8px;
     margin-inline: auto;
     display: flex;

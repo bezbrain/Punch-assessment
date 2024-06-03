@@ -28,7 +28,7 @@ export default HowWeEnsure;
 
 const HowWeEnsureWrapper = styled.div`
   padding: 12rem 1rem;
-  max-width: 1300px;
+  max-width: 1440px;
   margin-inline: auto;
 
   > h2 {
