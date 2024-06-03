@@ -76,11 +76,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-[rgba(255,255,255,0.4)] p-4  flex justify-between max-w-[1440px] mx-auto mt-8 border-t-[1px]">
+      <div className="text-[rgba(255,255,255,0.4)] p-4  justify-between max-w-[1440px] mx-auto mt-8 border-t-[1px] space-y-4 surfaceDuo:space-y-0 surfaceDuo:flex">
         <p className="text-[rgba(255,255,255,0.6)]">
           All rights reserved by Zwilt
         </p>
-        <div className="flex gap-12">
+        <div className="flex gap-6 sm:gap-12">
           <a href="" className="underline">
             Privacy Policy
           </a>
