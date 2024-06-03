@@ -4,11 +4,11 @@ import ShortCard from "./others/shortCard";
 const HowWeEnsure = () => {
   return (
     <HowWeEnsureWrapper>
-      <h2 className="max-w-[570px] text-[54px]">
+      <h2 className="max-w-[370px] text-[7vw] surfaceDuo:leading-[64px] surfaceDuo:text-[54px] surfaceDuo:max-w-[570px]">
         How we ensure you’re in good hands.
       </h2>
 
-      <p className="text-[22px] text-[#1E1515CC] my-6 leading-[32px] max-w-[645px]">
+      <p className="text-[#1E1515CC] my-6 max-w-[645px] surfaceDuo:text-[22px] surfaceDuo:leading-[32px]">
         With our comprehensive screening process, we hand-pick highly skilled
         candidates so you can onboard them in a matter of days.
       </p>
@@ -33,7 +33,6 @@ const HowWeEnsureWrapper = styled.div`
 
   > h2 {
     font-family: "Switzer-Semi-Bold";
-    line-height: 64px;
   }
 
   .content__container {
