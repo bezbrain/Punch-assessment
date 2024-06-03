@@ -8,7 +8,7 @@ const YourOneStop = () => {
   return (
     <OneStopWrapper>
       <div className="content__container">
-        <h2 className="text-[7vw] sm:text-[54px] mb-20">
+        <h2 className="text-[7vw] sm:text-[54px] surfaceDuo:mb-20">
           Your one-stop marketplace for finding the talent your business needs.
         </h2>
 
@@ -61,6 +61,11 @@ const OneStopWrapper = styled.div`
   .content__container {
     transform: skewY(4deg);
     padding-block: 12rem;
+  }
+  @media screen and (max-width: 539px) {
+    .content__container {
+      padding-block: 4rem;
+    }
   }
 
   .content__container > h2 {

@@ -31,6 +31,10 @@ const HowWeEnsureWrapper = styled.div`
   max-width: 1440px;
   margin-inline: auto;
 
+  @media screen and (max-width: 539px) {
+    padding-block: 6rem;
+  }
+
   > h2 {
     font-family: "Switzer-Semi-Bold";
   }

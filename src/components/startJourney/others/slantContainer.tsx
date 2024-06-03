@@ -25,7 +25,7 @@ const SlantContainer = ({
   return (
     <SlantWrapper className={`slant__container ${bgColor}`}>
       <div className="content__container smxl:flex justify-between">
-        <div className="pt-20 flex items-start gap-6">
+        <div className="pt-20 flex items-start gap-2 surfaceDuo:gap-6">
           <img
             src={figure}
             alt="one"

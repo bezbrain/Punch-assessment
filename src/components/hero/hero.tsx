@@ -53,6 +53,10 @@ export default Hero;
 const HeroWrapper = styled.section`
   padding-top: 18vh;
 
+  @media screen and (max-width: 539px) {
+    padding-top: 14vh;
+  }
+
   .top__hero > h1 {
     font-family: "Switzer-Bold";
   }

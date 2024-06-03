@@ -44,6 +44,10 @@ const FaqWrapper = styled.div`
   background-color: #f3f3f3;
   transform: skewY(-2deg);
 
+  @media screen and (max-width: 539px) {
+    padding-block: 3rem;
+  }
+
   .content__container {
     transform: skewY(2deg);
   }

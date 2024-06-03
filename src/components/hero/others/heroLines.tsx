@@ -17,6 +17,10 @@ export default HeroLines;
 const HeroLinesWrapper = styled.div`
   margin-top: 6.5rem;
 
+  @media screen and (max-width: 539px) {
+    margin-top: 4.5rem;
+  }
+
   > div {
     transform: rotate(356deg);
     background: radial-gradient(circle at center, #5a60a3, #e6e1f2 100%);

@@ -83,6 +83,11 @@ const HowItWorkedWrapper = styled.div`
     transform: skewY(4deg);
     padding-block: 12rem;
   }
+  @media screen and (max-width: 539px) {
+    .content__container {
+      padding-block: 6rem;
+    }
+  }
 
   .how__it__worked > h2 {
     font-family: "Switzer-Semi-Bold";

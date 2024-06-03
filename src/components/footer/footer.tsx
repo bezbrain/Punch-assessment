@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="content__container">
           <PreFooter />
 
-          <section className="mt-40 mb-16 max-w-[1440px] mx-auto">
+          <section className="mt-24 surfaceDuo:mt-40 mb-16 max-w-[1440px] mx-auto">
             {/* Top footer */}
             <div className="flex gap-6 justify-between surfaceDuo:gap-8">
               <div className="surfaceDuo:w-[25%]">
@@ -103,6 +103,11 @@ const FooterWrapper = styled.footer`
     padding: 4rem 1rem;
     color: #fff;
     transform: skewY(-2deg);
+  }
+  @media screen and (max-width: 539px) {
+    .slant__container {
+      padding: 2rem 1rem;
+    }
   }
 
   .content__container {

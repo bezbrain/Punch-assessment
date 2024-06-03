@@ -46,20 +46,19 @@ const Carousel = () => {
 export default Carousel;
 
 const CarouselWrapper = styled.div`
-  /* border: 2px solid red; */
   padding-block: 10rem 5rem;
   padding-left: 1rem;
   background: linear-gradient(to top, #f2f4ff, #ffffff);
   background-color: #f2f4ff;
-  /* width: 1300px; */
   margin-inline: auto;
   transform: skewY(-2deg);
 
+  @media screen and (max-width: 539px) {
+    padding-block: 5rem 2.5rem;
+  }
+
   .content__container {
     transform: skewY(2deg);
-    /* border: 2px solid green; */
-    /* display: flex;
-    justify-content: space-between; */
   }
 
   .content__container h2 {

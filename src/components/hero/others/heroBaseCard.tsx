@@ -27,7 +27,7 @@ const HeroBaseCard = () => {
         <button
           className={`${
             isTIDevelopment ? "bg-[#C7F4C2]" : ""
-          } px-6 py-2 rounded-[15px]`}
+          } px-2 text-sm iPhone:text-[16px] iPhone:px-6 py-2 rounded-[15px]`}
           onClick={showITHandler}
         >
           IT & Development
@@ -35,7 +35,7 @@ const HeroBaseCard = () => {
         <button
           className={`${
             !isTIDevelopment ? "bg-[#C7F4C2]" : ""
-          } px-6 py-2 rounded-[15px]`}
+          } px-2 text-sm iPhone:text-[16px] iPhone:px-6 py-2 rounded-[15px]`}
           onClick={showDesignHandler}
         >
           Design and Creative
