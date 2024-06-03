@@ -9,9 +9,10 @@ import { leftLogoIcon, logoIcon } from "../../assets/icons";
 const HowItWorked = () => {
   return (
     <HowItWorkedWrapper>
-      <div className="content__container max-w-[1440px] mx-auto">
-        <div className="how__it__worked text-white w-[40%]">
-          <h2 className="text-[50px] leading-[64px] flex flex-wrap items-center max-w-[400px]">
+      <div className="content__container justify-between max-w-[1440px] mx-auto space-y-12 iPad:space-y-0 iPad:flex">
+        {/* Left hand side */}
+        <div className="how__it__worked text-white iPad:w-[40%]">
+          <h2 className="text-[30px] flex leading-[44px] flex-wrap items-center max-w-[400px] iPhone:text-[40px] iPad:text-[50px] iPad:leading-[64px]">
             <span>How it worked</span> <span>for Jason</span>
             <img
               src={itWorkedImage}
@@ -19,10 +20,14 @@ const HowItWorked = () => {
               className="mx-4 h-[55px] w-[55px] rounded-full"
             />
             <span>at</span>{" "}
-            <img src={grooveImage} alt="groove" className="mt-3 h-[45px]" />
+            <img
+              src={grooveImage}
+              alt="groove"
+              className="mt-3 ml-4 h-[45px]"
+            />
           </h2>
 
-          <p className="my-12 text-[22px] max-w-[460px]">
+          <p className="my-4 max-w-[460px] iPad:text-[22px] md:my-6 iPad:my-12">
             Zwilt enabled us to deliver on time and they’ve been heavy hitters
             in our corner since.
           </p>
@@ -37,20 +42,23 @@ const HowItWorked = () => {
           </div>
         </div>
 
-        <div className="text-white w-[50%] self-end pb-12">
+        {/* Right hand side */}
+        <div className="text-white self-end pb-12 iPad:w-[50%]">
           <div className="flex gap-4 items-center">
-            <div className="bg-[#AF7CFF] h-[99px] w-[99px] flex justify-center items-center rounded-[38px]">
+            <div className="bg-[#AF7CFF] h-[69px] w-[69px] flex justify-center items-center rounded-3xl iPhone:rounded-[38px] iPhone:h-[99px] iPhone:w-[99px]">
               <img src={itWorkedGroove} alt="groove" />
             </div>
             <div>
-              <h3 className="text-[34px]">Jason Makki</h3>
-              <p className="text-[#C6C4C4]">Engineer at GROOVE</p>
+              <h3 className="text-[24px] iPad:text-[34px]">Jason Makki</h3>
+              <p className="text-[#C6C4C4] text-sm iPhone:text-[16px]">
+                Engineer at GROOVE
+              </p>
               <p className="text-[#C6C4C4]">San Francisco</p>
             </div>
           </div>
 
-          <div className="right__hand__side max-w-[500px] mt-16">
-            <p className="text-[22px]">
+          <div className="right__hand__side max-w-[500px] mt-4 md:mt-10 iPad:mt-16">
+            <p className="iPad:text-[22px]">
               Zwilt enabled us to deliver on time and they’ve been heavy hitters
               in our corner since. Zwilt enabled us to deliver on time and
               they’ve been heavy hitters in our corner since.Zwilt enabled us to
@@ -74,8 +82,6 @@ const HowItWorkedWrapper = styled.div`
   .content__container {
     transform: skewY(4deg);
     padding-block: 12rem;
-    display: flex;
-    justify-content: space-between;
   }
 
   .how__it__worked > h2 {
