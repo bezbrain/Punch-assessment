@@ -8,8 +8,10 @@ const commonPTagStyle = "flex items-center gap-2 text-[#202229CC]";
 
 const LeftCategories = ({ title }: LeftCategoriesProps) => {
   return (
-    <div className="">
-      <h3 className="text-[24px] leading-[34px] mb-6">{title}</h3>
+    <div className="mb-6">
+      <h3 className="text-[18px] font-semibold max-w-[300px] leading-[24px] lg:mb-3 mb-6 surfaceDuo:max-w-full sm:leading-[34px] sm:text-[24px]">
+        {title}
+      </h3>
 
       <div className="grid grid-cols-2 gap-4">
         <p className={commonPTagStyle}>

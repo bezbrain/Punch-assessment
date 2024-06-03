@@ -5,16 +5,16 @@ interface OneStopCardProps {
 
 const OneStopCard = ({ title, card }: OneStopCardProps) => {
   return (
-    <div className="bg-white rounded-[7px] py-4 px-[2vw]">
+    <div className="bg-white rounded-[7px] py-4 px-[2vw] max-w-[730px] mx-auto smxl:max-w-full">
       <p className="mb-4">{title}</p>
 
-      <div className="flex gap-4 justify-between">
+      <div className="flex flex-wrap justify-center surfaceDuo:justify-between">
         {card.map((each) => {
           const { id, name, icon } = each;
           return (
             <div key={id}>
               <div
-                className={`bg-[#EDEFFF] w-[86px] h-[86px] flex items-center justify-center ${
+                className={`bg-[#EDEFFF] w-[56px] h-[56px] flex items-center justify-center mx-auto md:h-[86px] md:w-[86px] ${
                   !name ? "rounded-[30px]" : "rounded-full"
                 }`}
               >
