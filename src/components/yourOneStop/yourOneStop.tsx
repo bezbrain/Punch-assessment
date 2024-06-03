@@ -52,7 +52,6 @@ const YourOneStop = () => {
 export default YourOneStop;
 
 const OneStopWrapper = styled.div`
-  /* border: 2px solid red; */
   background-color: #edefff;
   margin-top: 1rem;
   transform: skewY(-4deg);

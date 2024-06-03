@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { logoDownIcon } from "../../../assets/icons";
 
 const PreFooter = () => {
@@ -24,7 +25,6 @@ const PreFooterWrapper = styled.div`
   transform: skewY(-2deg);
   max-width: 1440px;
   margin-inline: auto;
-  /* padding: 5rem; */
 
   .cta__container {
     padding-block: 4rem;

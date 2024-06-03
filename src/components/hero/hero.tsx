@@ -67,7 +67,6 @@ const HeroWrapper = styled.section`
   }
 
   .input__container {
-    /* border: 2px solid red; */
     position: relative;
     max-width: 570px;
     margin: 1rem auto;

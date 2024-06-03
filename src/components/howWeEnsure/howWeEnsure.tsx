@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import ShortCard from "./others/shortCard";
 
 const HowWeEnsure = () => {

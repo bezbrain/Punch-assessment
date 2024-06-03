@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import {
   grooveImage,
   itWorkedGroove,
@@ -74,7 +75,6 @@ const HowItWorked = () => {
 export default HowItWorked;
 
 const HowItWorkedWrapper = styled.div`
-  /* border: 2px solid red; */
   background-color: #202229;
   transform: skewY(-4deg);
   padding-inline: 1rem;

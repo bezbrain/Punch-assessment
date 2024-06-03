@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import { frameOne, frameThree, frameTwo } from "../../assets/images";
 import { useSelector } from "react-redux";
+
+import { frameOne, frameThree, frameTwo } from "../../assets/images";
 import { RootState } from "../../store";
 
 const Carousel = () => {

@@ -89,13 +89,11 @@ const NavBar = () => {
 export default NavBar;
 
 const NavBarWrapper = styled.header`
-  /* border: 2px solid red; */
   position: fixed;
   width: 100%;
   background-color: #fff;
 
   .nav__container {
-    /* border: 2px solid green; */
     max-width: 1440px;
     padding: 14px 8px;
     margin-inline: auto;
@@ -103,12 +101,10 @@ const NavBarWrapper = styled.header`
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
-    /* transition: max-height 0.5s ease-out; */
   }
 
   @media screen and (max-width: 840px) {
     .nav__container {
-      /* border: 2px solid green; */
       flex-direction: column;
       align-items: flex-start;
       padding-left: 1rem;

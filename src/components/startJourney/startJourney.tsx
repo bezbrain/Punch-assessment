@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react";
+import { useDispatch } from "react-redux";
 import styled from "styled-components";
 
 import {
@@ -7,14 +9,11 @@ import {
   TwoCards,
 } from "../startJourney";
 import { oneImage, threeImage, twoImage } from "../../assets/images";
-import { useEffect, useRef } from "react";
-import { useDispatch } from "react-redux";
 import { AppDispatch } from "../../store";
 import { getLeftValue } from "../../management/features/carouselSlice";
 
 const StartJourney = () => {
   const leftRef = useRef<HTMLDivElement | null>(null);
-  // const [isLeft, setIsLeft] = useState(window.innerWidth);
 
   const dispatch = useDispatch<AppDispatch>();
 
@@ -22,7 +21,6 @@ const StartJourney = () => {
   const initiallyGetValue = () => {
     if (leftRef.current) {
       const leftValue = leftRef?.current.getBoundingClientRect().left;
-      // console.log(leftValue);
 
       dispatch(getLeftValue(leftValue));
     }
