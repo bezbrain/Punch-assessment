@@ -12,4 +12,5 @@
 
 body {
   font-family: "Switzer-Regular";
+  overflow-x: hidden;
 }

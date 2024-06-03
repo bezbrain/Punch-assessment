@@ -24,13 +24,17 @@ const SlantContainer = ({
 }: SlantContainerProps) => {
   return (
     <SlantWrapper className={`slant__container ${bgColor}`}>
-      <div className="content__container flex justify-between">
+      <div className="content__container smxl:flex justify-between">
         <div className="pt-20 flex items-start gap-6">
-          <img src={figure} alt="one" className="h-[83px] w-[60px]" />
+          <img
+            src={figure}
+            alt="one"
+            className="surfaceDuo:h-[83px] surfaceDuo:w-[60px]"
+          />
 
           <div className="-mt-2">
             <h3
-              className={`text-[34px] font-semibold text-[#202229] leading-[44px] ${titleStyle}`}
+              className={`text-[24px] font-semibold text-[#202229] surfaceDuo:leading-[44px] surfaceDuo:text-[34px] ${titleStyle}`}
             >
               {title}
             </h3>
@@ -58,6 +62,10 @@ const SlantWrapper = styled.div`
   padding-inline: 1rem 2rem;
   margin-top: 1.5rem;
   overflow: hidden;
+
+  @media screen and (max-width: 539px) {
+    padding-inline: 1rem;
+  }
 
   .content__container {
     transform: skewY(4deg);

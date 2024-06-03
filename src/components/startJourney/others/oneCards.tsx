@@ -7,7 +7,7 @@ import {
 
 const OneCards = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 -mt-8">
+    <div className="grid gap-6 mt-12 surfaceDuo:grid-cols-2 smxl:-mt-8">
       {/* Ruby developer */}
       <div className="bg-white rounded-b-[20px]">
         <div className="bg-[#ffdbcf] rounded-bl-[28px]">
@@ -20,7 +20,7 @@ const OneCards = () => {
       </div>
 
       {/* System ops engr */}
-      <div className="bg-white rounded-b-[20px] self-start -mt-4">
+      <div className="bg-white rounded-b-[20px] self-start surfaceDuo:-mt-4">
         <div className="bg-[#c9f0c5] rounded-bl-[28px]">
           <img src={systemOpsImage} alt="System" className="w-[250px]" />
         </div>
@@ -30,11 +30,11 @@ const OneCards = () => {
         </p>
       </div>
 
-      <div className="bg-[#d7d1ff] rounded-t-[24px] -mb-8">
+      <div className="bg-[#d7d1ff] rounded-t-[24px] surfaceDuo:-mb-8">
         <img src={thirdFirstImage} alt="third" className="w-[210px] mx-auto" />
       </div>
 
-      <div className="bg-[#fcdc8b] -mt-16 rounded-t-[24px]">
+      <div className="bg-[#fcdc8b] rounded-t-[24px] -mb-8 surfaceDuo:-mt-16 surfaceDuo:mb-0">
         <img
           src={fourthFirstImage}
           alt="fourth"
