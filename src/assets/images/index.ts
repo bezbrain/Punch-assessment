@@ -26,6 +26,8 @@ import leelarImage from "./leelar.png";
 import tenTimesImage from "./10x.png";
 import markImage from "./mark.png";
 import frameOne from "./frameOne.png";
+import frameTwo from "./frameTwo.png";
+import frameThree from "./frameThree.png";
 
 export {
   inputIcon,
@@ -56,4 +58,6 @@ export {
   tenTimesImage,
   markImage,
   frameOne,
+  frameTwo,
+  frameThree,
 };

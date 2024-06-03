@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { frameOne } from "../../assets/images";
+import { frameOne, frameThree, frameTwo } from "../../assets/images";
 import { useSelector } from "react-redux";
 import { RootState } from "../../store";
 
@@ -33,10 +33,10 @@ const Carousel = () => {
           <img src={frameOne} alt="frame1" className="h-full w-full" />
         </div>
         <div className="h-[600px] min-w-[1300px]">
-          <img src={frameOne} alt="frame1" className="h-full w-full" />
+          <img src={frameTwo} alt="frame2" className="h-full w-full" />
         </div>
         <div className="h-[600px] min-w-[1300px]">
-          <img src={frameOne} alt="frame1" className="h-full w-full" />
+          <img src={frameThree} alt="frame3" className="h-full w-full" />
         </div>
       </div>
     </CarouselWrapper>
@@ -46,9 +46,8 @@ const Carousel = () => {
 export default Carousel;
 
 const CarouselWrapper = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
-  /* align-items: center; */
   padding-block: 10rem 5rem;
   padding-left: 1rem;
   background: linear-gradient(to top, #f2f4ff, #ffffff);

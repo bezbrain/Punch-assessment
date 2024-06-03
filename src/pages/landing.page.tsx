@@ -1,4 +1,5 @@
 import { Carousel } from "../components/carousel";
+import { Faq } from "../components/faq";
 import { Hero } from "../components/hero";
 import { HowItWorked } from "../components/howItWorked";
 import { HowWeEnsure } from "../components/howWeEnsure";
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <HowWeEnsure />
       <StartJourney />
       <Carousel />
+      <Faq />
     </main>
   );
 };
