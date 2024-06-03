@@ -5,7 +5,7 @@ const PreFooter = () => {
   return (
     <PreFooterWrapper>
       <div className="cta__container">
-        <h2 className="text-[54px] font-semibold leading-[64px] max-w-[680px] mx-auto text-center">
+        <h2 className="text-[7vw] font-semibold md:leading-[64px] max-w-[680px] mx-auto text-center md:text-[54px]">
           Need a job done, and done well? Get started
         </h2>
 
@@ -27,7 +27,7 @@ const PreFooterWrapper = styled.div`
   /* padding: 5rem; */
 
   .cta__container {
-    padding: 4rem;
+    padding-block: 4rem;
     transform: skewY(2deg);
   }
 `;

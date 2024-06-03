@@ -12,8 +12,8 @@ const Footer = () => {
 
           <section className="mt-40 mb-16 max-w-[1440px] mx-auto">
             {/* Top footer */}
-            <div className="flex justify-between gap-8">
-              <div className="w-[25%]">
+            <div className="flex gap-6 justify-between surfaceDuo:gap-8">
+              <div className="surfaceDuo:w-[25%]">
                 <Logo />
                 <p className="text-[14px] max-w-[285px] mt-6 text-[rgba(255,255,255,0.7)]">
                   We take complex hiring processes - and simplify them.
@@ -21,21 +21,21 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="w-[65%]">
-                <h2 className="text-[54px] leading-[64px] w-[780px]">
+              <div className="surfaceDuo:w-[65%]">
+                <h2 className="text-[5vw] surfaceDuo:text-[34px] smxl:leading-[64px] smxl:w-[780px] smxl:text-[54px]">
                   Connecting the right people to the right businesses.
                 </h2>
               </div>
             </div>
 
             {/* Base footer */}
-            <div className="flex justify-between mt-16">
+            <div className="justify-between mt-16 space-y-12 surfaceDuo:flex surfaceDuo:space-y-0">
               <div className="w-[25%]">
                 <a href="" className="text-[rgba(255,255,255,0.4)] text-[14px]">
                   LINKS AND REDIRECTS
                 </a>
 
-                <div className="flex gap-4 mt-6">
+                <div className=" gap-4 mt-6 space-y-2 md:flex md:space-y-0">
                   <button className="bg-[#292B34] w-[162px] text-center py-2 text-[15px] rounded-[20px] text-[rgba(255,255,255,0.6)] ">
                     Hire now
                   </button>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="w-[65%] flex justify-between">
+              <div className="w-[65%] justify-between gap-12 grid grid-cols-2 md:flex md:gap-0">
                 <FooterLinksColumn
                   columnTitle="PLATFORM"
                   contentOne="Find Work"
@@ -75,8 +75,6 @@ const Footer = () => {
           </section>
         </div>
       </div>
-
-      {/* <hr className="w-full mt-8" /> */}
 
       <div className="text-[rgba(255,255,255,0.4)] p-4  flex justify-between max-w-[1440px] mx-auto mt-8 border-t-[1px]">
         <p className="text-[rgba(255,255,255,0.6)]">
