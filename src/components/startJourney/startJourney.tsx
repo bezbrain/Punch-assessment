@@ -43,7 +43,7 @@ const StartJourney = () => {
 
   return (
     <StartJourneyWrapper ref={leftRef}>
-      <h2 className="text-[54px] text-center mb-16">
+      <h2 className="text-[7vw] sm:text-[54px] text-center mb-16">
         Start your journey today.
       </h2>
 

@@ -8,34 +8,34 @@ const Carousel = () => {
     (store: RootState) => store.carouselStore
   );
 
-  // console.log(containerLeftValue);
-
   return (
-    <CarouselWrapper>
+    <CarouselWrapper className="iPadAir:flex">
       <div
         className="content__container"
         style={{ marginLeft: containerLeftValue }}
       >
-        <div className="mt-24">
-          <h2 className="text-[54px] w-[380px] leading-[64px]">
+        <div className="smxl:mt-24">
+          <h2 className="text-[7vw] surfaceDuo:text-[34px] iPadAir:text-[54px] surfaceDuo:w-[400px] leading-[64px]">
             Why choose Zwilt?
           </h2>
 
-          <p className="max-w-[325px] text-[22px] text-[#202229CC] mt-8">
+          <p className="max-w-[500px] iPadAir:max-w-[325px] surfaceDuo:text-[22px] text-[#202229CC] mb-6 iPadAir:mt-8">
             We take complex hiring processes - and simplify them. Connecting you
             to the world’s highly qualified talent pool.
           </p>
         </div>
       </div>
 
-      <div className="carousel__container top-0 -right-[420px] overflow-auto flex">
-        <div className="h-[600px] min-w-[1300px]">
+      <div className="carousel__container overflow-auto flex">
+        <div className="min-w-full md:min-w-[1100px] iPadAir:h-[400px] iPadAir:min-w-[800px] smxl:min-w-[1300px] smxl:h-[600px]">
           <img src={frameOne} alt="frame1" className="h-full w-full" />
         </div>
-        <div className="h-[600px] min-w-[1300px]">
+
+        <div className="min-w-full md:min-w-[1100px] iPadAir:h-[400px] iPadAir:min-w-[800px] smxl:min-w-[1300px] smxl:h-[600px]">
           <img src={frameTwo} alt="frame2" className="h-full w-full" />
         </div>
-        <div className="h-[600px] min-w-[1300px]">
+
+        <div className="min-w-full md:min-w-[1100px] iPadAir:h-[400px] iPadAir:min-w-[800px] smxl:min-w-[1300px] smxl:h-[600px]">
           <img src={frameThree} alt="frame3" className="h-full w-full" />
         </div>
       </div>
@@ -47,7 +47,6 @@ export default Carousel;
 
 const CarouselWrapper = styled.div`
   /* border: 2px solid red; */
-  display: flex;
   padding-block: 10rem 5rem;
   padding-left: 1rem;
   background: linear-gradient(to top, #f2f4ff, #ffffff);
