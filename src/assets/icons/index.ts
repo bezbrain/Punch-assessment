@@ -16,6 +16,7 @@ import unrealIcon from "./unreal-icon.png";
 import oneStopIcon from "./one-stop-base-icon.png";
 import playMedia from "./play-media.png";
 import whiteMedia from "./white-media.png";
+import yellowLogoIcon from "./yellowLogoIcon.png";
 
 export {
   skillIcon,
@@ -36,4 +37,5 @@ export {
   oneStopIcon,
   playMedia,
   whiteMedia,
+  yellowLogoIcon,
 };

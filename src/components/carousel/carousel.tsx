@@ -28,7 +28,7 @@ const Carousel = () => {
         </div>
       </div>
 
-      <div className="top-0 -right-[420px] overflow-auto flex">
+      <div className="carousel__container top-0 -right-[420px] overflow-auto flex">
         <div className="h-[600px] min-w-[1300px]">
           <img src={frameOne} alt="frame1" className="h-full w-full" />
         </div>
@@ -54,8 +54,10 @@ const CarouselWrapper = styled.div`
   background-color: #f2f4ff;
   /* width: 1300px; */
   margin-inline: auto;
+  transform: skewY(-2deg);
 
   .content__container {
+    transform: skewY(2deg);
     /* border: 2px solid green; */
     /* display: flex;
     justify-content: space-between; */
@@ -63,5 +65,9 @@ const CarouselWrapper = styled.div`
 
   .content__container h2 {
     font-family: "Switzer-Semi-Bold";
+  }
+
+  .carousel__container {
+    transform: skewY(2deg);
   }
 `;

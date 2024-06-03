@@ -1,3 +1,4 @@
 import Faq from "./faq";
+import FaqCard from "./others/faqCard";
 
-export { Faq };
+export { Faq, FaqCard };
