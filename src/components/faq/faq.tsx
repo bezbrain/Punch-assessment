@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <FaqWrapper>
       <div className="content__container">
-        <h2 className="text-[54px] text-center mb-8">
+        <h2 className="text-[7vw] md:text-[54px] text-center mb-8">
           Frequently asked questions
         </h2>
 

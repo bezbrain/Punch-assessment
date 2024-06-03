@@ -27,12 +27,12 @@ const FaqCard = ({
         {isGeneral && <p className="font-semibold">General</p>}
       </div>
       <div className="flex justify-center items-center w-[230px]">
-        {isJoining && <p className="font-semibold">Joining Process</p>}
+        {isJoining && <p className="font-semibold px-4">Joining Process</p>}
       </div>
       <div className={`h-[110px] w-[390px] flex items-center`}>
         <p className="text-left">{faqContent}</p>
       </div>
-      <div className="flex justify-center items-center w-[230px] h-[110px]">
+      <div className="flex justify-center items-center w-[50px] mx-4 surfaceDuo:w-[230px] h-[110px]">
         {isImage && <img src={yellowLogoIcon} alt="logo" />}
       </div>
     </div>
