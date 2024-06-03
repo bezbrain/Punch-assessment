@@ -7,10 +7,42 @@ import {
   TwoCards,
 } from "../startJourney";
 import { oneImage, threeImage, twoImage } from "../../assets/images";
+import { useEffect, useRef } from "react";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "../../store";
+import { getLeftValue } from "../../management/features/carouselSlice";
 
 const StartJourney = () => {
+  const leftRef = useRef<HTMLDivElement | null>(null);
+  // const [isLeft, setIsLeft] = useState(window.innerWidth);
+
+  const dispatch = useDispatch<AppDispatch>();
+
+  // Initially set the value of this container left value
+  const initiallyGetValue = () => {
+    if (leftRef.current) {
+      const leftValue = leftRef?.current.getBoundingClientRect().left;
+      // console.log(leftValue);
+
+      dispatch(getLeftValue(leftValue));
+    }
+  };
+
+  // Set the value when the screen resizes
+  const handleScreenResize = () => {
+    initiallyGetValue();
+  };
+
+  useEffect(() => {
+    initiallyGetValue(); // Initially call the function to first set the left value
+
+    window.addEventListener("resize", handleScreenResize);
+
+    return () => window.removeEventListener("resize", handleScreenResize);
+  }, []);
+
   return (
-    <StartJourneyWrapper>
+    <StartJourneyWrapper ref={leftRef}>
       <h2 className="text-[54px] text-center mb-16">
         Start your journey today.
       </h2>

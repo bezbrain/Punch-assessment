@@ -24,6 +24,8 @@ import maleHalfImg from "./maleHalfImg.png";
 import thirdOne from "./third1.png";
 import leelarImage from "./leelar.png";
 import tenTimesImage from "./10x.png";
+import markImage from "./mark.png";
+import frameOne from "./frameOne.png";
 
 export {
   inputIcon,
@@ -52,4 +54,6 @@ export {
   thirdOne,
   leelarImage,
   tenTimesImage,
+  markImage,
+  frameOne,
 };

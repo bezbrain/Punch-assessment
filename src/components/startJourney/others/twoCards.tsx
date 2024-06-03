@@ -7,6 +7,7 @@ import {
   longerLine,
   longerYellowLine,
   maleHalfImg,
+  markImage,
   shortGreenLine,
   shortLine,
   shortYellowLine,
@@ -34,7 +35,7 @@ const TwoCards = () => {
           ))}
       </div>
 
-      <div className="space-y-6">
+      <div className="space-y-6 relative">
         <div className="bg-white px-8 py-12 rounded-2xl -mt-20">
           <div className="flex gap-4">
             <img src={femaleHalfImage} alt="human" />
@@ -53,6 +54,8 @@ const TwoCards = () => {
               </div>
             ))}
         </div>
+
+        <img src={markImage} alt="mark" className="absolute bottom-8 -left-8" />
 
         <div className="bg-white px-8 py-6 rounded-t-2xl">
           <div className="flex items-center gap-4">
