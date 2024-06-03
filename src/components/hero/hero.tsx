@@ -14,12 +14,12 @@ const Hero = () => {
   return (
     <HeroWrapper>
       <div className="top__hero max-w-[670px] mx-auto px-4 text-center">
-        <h1 className="text-[54px] leading-[64px] flex flex-wrap items-center justify-center">
+        <h1 className="text-[7vw] leading-[48px] flex flex-wrap items-center justify-center sm:text-[54px] sm:leading-[64px]">
           <span>Finding the right fit</span>{" "}
           <img src={heroImage} alt="hero-image" className="mx-2" /> has{" "}
           <span>never been easier.</span>
         </h1>
-        <p className="text-[22px]">
+        <p className="sm:text-[22px]">
           With our rigorous pre-vetting process, you'll never have to worry
           about finding the ideal candidate ever again.
         </p>
@@ -36,7 +36,7 @@ const Hero = () => {
             value={isValue}
             onChange={handleInputChange}
           />
-          <div className="bg-[#FFBE2E] h-[74px] w-[74px] flex items-center justify-center rounded-lg cursor-pointer absolute right-0">
+          <div className="bg-[#FFBE2E] h-[50px] w-[60px] flex items-center justify-center rounded-lg cursor-pointer absolute right-0 sm:h-[74px] sm:w-[74px]">
             <img src={inputIcon} alt="icon" className="w-[25px] h-[15px]" />
           </div>
         </div>
@@ -76,5 +76,10 @@ const HeroWrapper = styled.section`
   }
   .input__container > input:focus {
     outline: 1px solid #525aa0;
+  }
+  @media screen and (max-width: 639px) {
+    .input__container {
+      height: 50px;
+    }
   }
 `;

@@ -22,7 +22,7 @@ const HeroBaseCard = () => {
   };
 
   return (
-    <HeroBaseCardWrapper className="max-w-[920px] mx-auto mt-10 bg-[#F8F8F8] px-16 pt-3 pb-4">
+    <HeroBaseCardWrapper className="max-w-[920px] mx-auto mt-10 bg-[#F8F8F8] px-4 pt-3 pb-4 sm:px-16">
       <div className="mx-auto w-fit bg-[#D2D2D2] rounded-[15px] mb-4">
         <button
           className={`${
@@ -42,7 +42,7 @@ const HeroBaseCard = () => {
         </button>
       </div>
 
-      <div className="IT__list__con flex justify-between">
+      <div className="IT__list__con flex flex-wrap justify-center gap-x-16 gap-y-4 sm:gap-0 sm:justify-between">
         <ul>
           <li>Python Developer</li>
           <li>Shopify Developer</li>
@@ -77,5 +77,10 @@ const HeroBaseCardWrapper = styled.div`
 
   .IT__list__con > ul > li {
     color: #959595;
+  }
+  @media screen and (max-width: 639px) {
+    .IT__list__con > ul {
+      line-height: 1.8rem;
+    }
   }
 `;
