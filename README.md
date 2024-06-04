@@ -1,6 +1,6 @@
 # Punch Group Assessment
 
-Click <a href="https://punch-assessment.netlify.app" target="_blank">here</a> to visit application
+Click [here](https://punch-assessment.netlify.app) to visit application
 
 This project was completed to prove that I am a good fit for the position of MERN Stack Developer at **Punch Group**.
 
