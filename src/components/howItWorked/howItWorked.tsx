@@ -4,12 +4,20 @@ import {
   grooveImage,
   itWorkedGroove,
   itWorkedImage,
+  quoteImage,
 } from "../../assets/images";
 import { leftLogoIcon, logoIcon } from "../../assets/icons";
 
 const HowItWorked = () => {
   return (
     <HowItWorkedWrapper>
+      <div className="absolute right-4">
+        <img
+          src={quoteImage}
+          alt="quote"
+          className="w-[100px] surfaceDuo:w-full"
+        />
+      </div>
       <div className="content__container justify-between max-w-[1440px] mx-auto space-y-12 iPad:space-y-0 iPad:flex">
         {/* Left hand side */}
         <div className="how__it__worked text-white iPad:w-[40%]">
@@ -75,6 +83,7 @@ const HowItWorked = () => {
 export default HowItWorked;
 
 const HowItWorkedWrapper = styled.div`
+  position: relative;
   background-color: #202229;
   transform: skewY(-4deg);
   padding-inline: 1rem;

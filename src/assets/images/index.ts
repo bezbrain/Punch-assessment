@@ -28,6 +28,7 @@ import markImage from "./mark.png";
 import frameOne from "./frameOne.png";
 import frameTwo from "./frameTwo.png";
 import frameThree from "./frameThree.png";
+import quoteImage from "./quotations.png";
 
 export {
   inputIcon,
@@ -60,4 +61,5 @@ export {
   frameOne,
   frameTwo,
   frameThree,
+  quoteImage,
 };
