@@ -1,5 +1,7 @@
 # Punch Group Assessment
 
+Click [here](https://punch-assessment.netlify.app) to visit application
+
 This project was completed to prove that I am a good fit for the position of MERN Stack Developer at **Punch Group**.
 
 The assessment was about building a smooth landing page
