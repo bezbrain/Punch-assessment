@@ -28,19 +28,18 @@ Take the following steps to run the project and explore basic features implement
 - Then run, `git clone <https url copied>`. This will make the project available on your machine, for example, the project will be in the desktop folder
 - You can then go to the desktop folder and look for `Punch-assessment` folder, then open it with your VSCode or any of your preferred IDE
 
-2. Install all dependencies: For the project to run without error, you need to install all dependencies used for the project using the command, `npm install`
+2. **Install all dependencies**: For the project to run without error, you need to at least install all dependencies used for the project using the command, `npm install`
 
-_To easily know most features implemented and the programming skills showcased, I will briefly list some and important ones of them:
-Used bottom tab navigation: This is to showcase my skill in React Native navigation. With this, I was able to create dummy screens for corresponding screens that are not required to be developed_
+_To easily know most features implemented and the programming skills showcased, I will briefly list some and important ones of them:_
 
-1. Modular programming: I made sure I divided components into small chunks where necessary. With this approach, I was able to easily reuse components accordingly.
+1. **Modular programming**: I made sure I divided components into small chunks where necessary. With this approach, I was able to easily reuse components accordingly.
 
-2. Folder structure: Although, it was a small and simple project, I still kept in mind that this could be a big project. Hence, I maintained simple folder structure that can easily be navigated through.
+2. **Folder structure**: Although, it was a small and simple project, I still kept in mind that this could be a big project. Hence, I maintained simple folder structure that can easily be navigated through.
 
-3. Total responsiveness: The application is totally responsive on any screen dimensions you can think of.
+3. **Total responsiveness**: The application is totally responsive on any screen dimensions you can think of.
 
-4. Image Optimization: Although there are many images in the design that could be used; images that are icons, background linear gradients, slant containers, I still made sure I only used images where they unavoidably necessary. This means that some icons remained as icons and NOT downloaded as images, all slant containers were developed and NOT used as background images, all linear gradient gradients were also developed. This was done because I know the implication of have a lot of images on a page, it mostly causes latency.
+4. **Image Optimization**: Although there are many images in the design that could be used; images that are icons, background linear gradients, slant containers, I still made sure I only used images where they unavoidably necessary. This means that some icons remained as icons and NOT downloaded as images, all slant containers were developed and NOT used as background images, all linear gradient gradients were also developed. This was done because I know the implication of having a lot of images on a page, it mostly causes latency.
 
-5. Handling Responsiveness: Although other screen sizes (like tablet and mobile) design were not provided, I was still able to imagine a good fitting development for these screens
+5. **Handling Responsiveness**: Although other screen sizes (like tablet and mobile) designs were not provided, I was still able to imagine a good fitting development for these screens
 
-6. Great attention to details: Gave attention to every details in the design. Other than strictly following the colors provided by the design, I also strictly followed the typography provided and most importantly used the `Switzer` font family as used in the design.
+6. **Great attention to details**: Gave attention to every details in the design. Other than strictly following the colors provided by the design, I also strictly followed the typography and layouts provided and most importantly used the `Switzer` font family as used in the design.
