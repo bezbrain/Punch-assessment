@@ -22,7 +22,7 @@ Take the following steps to run the project and explore basic features implement
 1. **Get Project locally**: To get the code locally on your machine, you'll need to clone or fork the project's repository. To do this,
 
 - Go to the project's repository
-- Copy the https urls on GitHub
+- Copy the https urls on GitHub or fork the repo to have a copy of it in your own GitHub account then copy its https urls.
 - Go to your VSCode terminal
 - Locate the folder you'd like to keep the project. If for example you want to have the project in desktop then you can change directory to desktop by running `cd desktop`
 - Then run, `git clone <https url copied>`. This will make the project available on your machine, for example, the project will be in the desktop folder
